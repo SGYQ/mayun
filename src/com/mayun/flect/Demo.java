@@ -28,6 +28,6 @@ public class Demo
 		//获取方法
 		Method me = c.getClass().getMethod("add", new Class[]{int.class, int.class} );
 		//执行
-		me.invoke(c, 1,2); //3
+		me.invoke(c, 1,2);//3
 	}
 }
